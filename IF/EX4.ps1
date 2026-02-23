@@ -1,4 +1,4 @@
-# Desenvolva um Programa que leia o saldo inicial de um cliente de banco e leia também o valor de um cheque. Analise se o cheque pode ser descontado. Se o cheque não puder ser descontado, mostre essa informação, caso contrário, desconte o cheque e informe o saldo atualizado.
+﻿# Desenvolva um Programa que leia o saldo inicial de um cliente de banco e leia também o valor de um cheque. Analise se o cheque pode ser descontado. Se o cheque não puder ser descontado, mostre essa informação, caso contrário, desconte o cheque e informe o saldo atualizado.
 
 [int]$saldo_inicial = 0
 [int]$valor_cheque = 0
@@ -15,7 +15,7 @@ if ($valor_cheque -le $saldo_inicial) {
     while ($resposta -eq "s") {
         # Lógica para descontar outro cheque
             $valor_cheque = Read-Host "Introduza o valor do cheque"
-            if ($valor_cheque -le $saldo_atualizado) {
+            if ($valor_cheque -le $saldo_atualizado) { 
                 $saldo_atualizado = $saldo_atualizado - $valor_cheque
                 Write-Host "Cheque descontado com sucesso. Saldo atualizado: $saldo_atualizado"
             } 

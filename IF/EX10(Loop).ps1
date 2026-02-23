@@ -1,4 +1,4 @@
-# Leia 10 números e determine quantos são pares e quantos são ímpares.
+﻿# Leia 10 números e determine quantos são pares e quantos são ímpares.
 [int]$numero = 0
 [int]$contador_par = 0
 [int]$contador_impar = 0

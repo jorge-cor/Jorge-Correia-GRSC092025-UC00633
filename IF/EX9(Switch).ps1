@@ -1,4 +1,4 @@
-# Leia um número inteiro de 1 a 12 e mostre o nome do mês correspondente. Caso o número não seja válido, mostre uma mensagem de erro.
+﻿# Leia um número inteiro de 1 a 12 e mostre o nome do mês correspondente. Caso o número não seja válido, mostre uma mensagem de erro.
 
 [int]$numero_mes = 0
 $numero_mes = Read-Host "Introduza um número de 1 a 12 para obter o nome do mês correspondente"

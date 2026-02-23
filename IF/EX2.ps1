@@ -1,4 +1,4 @@
-# Desenvolva um programa que analise 3 valores inteiros e informe qual o maior e qual o menor deles.
+﻿# Desenvolva um programa que analise 3 valores inteiros e informe qual o maior e qual o menor deles.
 
 [int]$num1 = 0
 [int]$num2 = 0
@@ -20,6 +20,6 @@ if ($num2 -lt $menor) {
 }
 if ($num3 -lt $menor) {
     $menor = $num3
-}
+} 
 Write-Host "O maior número é: $maior"
 Write-Host "O menor número é: $menor"

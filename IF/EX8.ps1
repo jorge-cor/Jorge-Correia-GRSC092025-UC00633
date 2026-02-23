@@ -1,4 +1,4 @@
-# Crie um programa que leia a nota de 10 alunos (notas de 0 a 20), calcule a média das notas e mostre a média. Além disso, informe quantos alunos ficaram com a nota igual ou acima da média. 
+﻿# Crie um programa que leia a nota de 10 alunos (notas de 0 a 20), calcule a média das notas e mostre a média. Além disso, informe quantos alunos ficaram com a nota igual ou acima da média. 
 
 [int]$media = 0
 [int]$soma = 0
@@ -15,7 +15,7 @@ for ($i = 1; $i -le $quantidade_alunos; $i++) {
             $soma += $entrada
             $nota_valida = $true
         } else {
-            Write-Host "Erro: A nota deve estar entre 0 e 20!"
+            Write-Host "Erro: A nota deve estar entre 0 e 20!" 
         }
     }
 }

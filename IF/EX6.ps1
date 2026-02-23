@@ -1,4 +1,4 @@
-#Uma loja oferece descontos de acordo com o valor da compra:
+﻿#Uma loja oferece descontos de acordo com o valor da compra:
     #10% para compras até 200,00€.
     #15% para compras entre 200,01€ e 500,00€.
     #20% para compras acima de 500,00€.
@@ -23,4 +23,4 @@ $valor_total = $valor_compra - $desconto
 Write-Host "Cliente: $nome_cliente"
 Write-Host "Valor da compra: $valor_compra€"
 Write-Host "Valor do desconto: $desconto€"
-Write-Host "Valor total a pagar: $valor_total€"
+Write-Host "Valor total a pagar: $valor_total€" 

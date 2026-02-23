@@ -1,4 +1,4 @@
-  #  Desenvolva um programa que assuma uma entrada em segundos e a converta para horas, minutos e segundos.
+﻿  #  Desenvolva um programa que assuma uma entrada em segundos e a converta para horas, minutos e segundos.
 
 [int]$segundos = 0
 [int]$hora_final = 0
@@ -19,7 +19,6 @@ if ($segundos -ge 60) {
 }
 
 $segundo_final = $segundos
-
 Write-Host "$hora_final horas, $minuto_final minutos e $segundo_final segundos"
 
 

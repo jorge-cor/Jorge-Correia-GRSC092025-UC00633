@@ -1,4 +1,4 @@
-# Crie 2 variáveis (num1 e num2) e leia o valor para cada uma delas. Mostre os valores de forma crescente e decrescente.
+﻿# Crie 2 variáveis (num1 e num2) e leia o valor para cada uma delas. Mostre os valores de forma crescente e decrescente.
 
 [int]$num1 = 0
 [int]$num2 = 0
