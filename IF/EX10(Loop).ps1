@@ -14,5 +14,5 @@ while ($contador -lt 10) {
 }
 
 Write-Host "Quantidade de números pares: $contador_par"
-Write-Host "Quantidade de números ímpares: $contador_impar"
+Write-Host "Quantidade de números ímpares: $contador_impar" 
 

@@ -15,5 +15,5 @@ switch ($numero_mes) {
     10 { Write-Host "Outubro" }
     11 { Write-Host "Novembro" }
     12 { Write-Host "Dezembro" }
-    default { Write-Host "Número inválido. Por favor, introduza um número entre 1 e 12." }
+    default { Write-Host "Número inválido. Por favor, introduza um número entre 1 e 12." } 
 }
